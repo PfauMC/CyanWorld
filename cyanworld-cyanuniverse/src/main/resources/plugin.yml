@@ -1,0 +1,6 @@
+name: CyanUniverse
+main: ru.cyanworld.cyanuniverse.CyanUniverse
+version: 1.0
+website: https://github.com/PfauMC/CyanWorld
+authors: [ XjCyan1de ]
+depend: [ Cyan1dex, FastAsyncWorldEdit ]

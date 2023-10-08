@@ -1,0 +1,6 @@
+name: Cyan1dex
+main: ru.cyanworld.cyan1dex.Cyan1dex
+version: 1.0
+website: https://github.com/PfauMC/CyanWorld
+authors: [ XjCyan1de ]
+depend: [ ProtocolLib ]
