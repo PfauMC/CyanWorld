@@ -1,36 +1,36 @@
 customtab:
-    enable: true
-    updatedelay: 0
-    header: "§bCyan§3World"
-    footer: "§oCyanWorld.ru"
+  enable: true
+  updatedelay: 0
+  header: "§bCyan§3World"
+  footer: "§oCyanWorld.ru"
 chattranslator:
-    enable: false
+  enable: false
 fakebutitsrealonline:
-    enable: false
-    motd: "CyanWorld"
+  enable: false
+  motd: "CyanWorld"
 deathmsg:
-    enable: true
+  enable: true
 joinmsg:
-    enable: false
+  enable: false
 perworldchat:
-    enable: false
+  enable: false
 perworldtab:
-    enable: false
+  enable: false
 hubmode:
-    enable: false
+  enable: false
 playerdeathanimation:
-    enable: false
-    respawndelay: 5
+  enable: false
+  respawndelay: 5
 commands:
-    spawn: false
-    home: false
-    sethome: false
+  spawn: false
+  home: false
+  sethome: false
 reboot:
-    time: "11:45"
+  time: "11:45"
 messages:
-    consoledeny: "§c» §rДанную команду нельзя выполнить через консоль"
-    permdeny: "§c» §rУ тебя нет прав, чтобы выполнить эту команду"
-    teleportdeny-otherworld: "§c» §rТелепортация в другой мир без портала невозможна!"
-    teleporting: "§8» §rТелепортация..."
-    sethome-needsleep: "§c» §rТы дожен поспать на кровати, чтобы установить точку дома"
-    sethome-success: "§a» §rТочка дома установлена!"
+  consoledeny: "§c» §rДанную команду нельзя выполнить через консоль"
+  permdeny: "§c» §rУ тебя нет прав, чтобы выполнить эту команду"
+  teleportdeny-otherworld: "§c» §rТелепортация в другой мир без портала невозможна!"
+  teleporting: "§8» §rТелепортация..."
+  sethome-needsleep: "§c» §rТы дожен поспать на кровати, чтобы установить точку дома"
+  sethome-success: "§a» §rТочка дома установлена!"

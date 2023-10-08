@@ -9,7 +9,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 
 public class FakeButItsRealOnline
-        implements Listener {
+    implements Listener {
     public FakeButItsRealOnline(Plugin plugin) {
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         ProtocolLibrary.getProtocolManager().addPacketListener(new PacketAdapter(PacketAdapter.params(plugin, PacketType.Status.Server.SERVER_INFO).optionAsync()) {

@@ -34,12 +34,12 @@ public class MainCommand extends Command {
 
     public MainCommand(CyanUniverse main) {
         super
-                (
-                        "cyanuniverse",
-                        "Выход в лобби",
-                        "/cyanuniverse",
-                        Arrays.asList("cyanuniverse")
-                );
+            (
+                "cyanuniverse",
+                "Выход в лобби",
+                "/cyanuniverse",
+                Arrays.asList("cyanuniverse")
+            );
         this.main = main;
         this.des = main.getDescription();
         server.getCommandMap().register(getName(), this);
@@ -155,12 +155,12 @@ public class MainCommand extends Command {
                         String texture = item != null ? getTexture(item, false) : "null";
                         server.getOnlinePlayers().forEach(Player -> {
                             Player.sendMessage(
-                                    "   \n"
-                                            + "§aНовая голова в декорациях!\n"
-                                            + "§aКатегория: §f" + category + "\n"
-                                            + "§aНазвание: §f" + name + "\n"
-                                            + "§aЦена: §f" + price + " цианов\n"
-                                            + "   "
+                                "   \n"
+                                    + "§aНовая голова в декорациях!\n"
+                                    + "§aКатегория: §f" + category + "\n"
+                                    + "§aНазвание: §f" + name + "\n"
+                                    + "§aЦена: §f" + price + " цианов\n"
+                                    + "   "
                             );
                             Player.playSound(Player.getLocation(), Sound.ENTITY_CAT_PURREOW, Integer.MAX_VALUE, 2);
                         });

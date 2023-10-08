@@ -659,11 +659,11 @@ public class CodeEventHandler {
                     int stay = (int) getNumber(chest, 3);
                     int fadeOut = (int) getNumber(chest, 4);
                     player.sendTitle(
-                            getText(chest, 0),
-                            getText(chest, 1),
-                            fadeIn != -1 ? fadeIn : 20,
-                            stay != -1 ? stay : 20,
-                            fadeOut != -1 ? stay : 20
+                        getText(chest, 0),
+                        getText(chest, 1),
+                        fadeIn != -1 ? fadeIn : 20,
+                        stay != -1 ? stay : 20,
+                        fadeOut != -1 ? stay : 20
                     );
                     break;
                 }
